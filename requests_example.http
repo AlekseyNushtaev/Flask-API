@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:5000
+
+# создание продукта
+POST {{baseUrl}}/advertisment/
+Content-Type: application/json
+
+{
+  "title": "Помидор",
+  "description": "Лучшие помидоры на рынке"
+  "owner": "olesha"
+}
